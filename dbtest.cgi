@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 # エラーをブラウザに表示
-use CGI::Carp qw(fatalsToBrowser)
+use CGI::Carp qw(fatalsToBrowser);
 # DBIモジュール
 use DBI;
 use strict;
